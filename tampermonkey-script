@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Canvas Rubric Uploader
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Subir rúbricas a Canvas LMS
+// @version      1.1
+// @description  Subir rúbricas a Canvas LMS con descripciones largas manejadas correctamente
 // @author       Pablo Gómez, ChatGPT
 // @match        *://*.instructure.com/courses/*/rubrics
 // @grant        none
@@ -106,7 +106,7 @@
         lines.forEach((line, index) => {
             if (index === 0 || line.trim() === '') return; // Saltar la primera línea (cabecera) y las líneas vacías
 
-            const parts = line.split(',');
+            const parts = parseCSVLine(line);
             const [criterion, criterion_description] = parts.splice(0, 2);
             const ratings = {};
 
@@ -129,6 +129,30 @@
         });
 
         return criteria;
+    }
+
+    function parseCSVLine(line) {
+        const result = [];
+        let insideQuotes = false;
+        let value = '';
+
+        for (let i = 0; i < line.length; i++) {
+            const char = line[i];
+            if (char === '"') {
+                insideQuotes = !insideQuotes;
+            } else if (char === ',' && !insideQuotes) {
+                result.push(value.trim());
+                value = '';
+            } else {
+                value += char;
+            }
+        }
+
+        if (value) {
+            result.push(value.trim());
+        }
+
+        return result;
     }
 
     async function createRubricInCanvas(courseId, rubricTitle, criteria, accessToken) {
