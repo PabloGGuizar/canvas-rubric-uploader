@@ -34,6 +34,8 @@ Canvas Rubric Uploader es una herramienta que te permite subir rúbricas a Canva
 
 ### Paso 2: Añadir el Script Canvas Rubric Uploader
 
+#### Puedes instalar el Script directamente desde este enlace [Canvas Rubric Uploader](https://github.com/PabloGGuizar/canvas-rubric-uploader/raw/main/rubricuploader.user.js)
+
 1. **Abrir Tampermonkey:**
    - Haz clic en el icono de Tampermonkey en la barra de herramientas del navegador.
    - Selecciona "Dashboard" para abrir el panel de control de Tampermonkey.
