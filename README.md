@@ -76,6 +76,7 @@ Guarda este contenido en un archivo con la extensión .csv, por ejemplo, rubrica
   - Selecciona el archivo CSV que contiene la rúbrica.
   - Pega tu token de acceso en el campo correspondiente.
 4. **Hacer clic en "Subir":** El script subirá la rúbrica a Canvas.
+5. **Administra tu token:** Selecciona si deseas guardar o borrar tu token del equipo.
 
 ### Nota de Seguridad
 El token de acceso se almacenará en el almacenamiento local de tu navegador. Asegúrate de que tu entorno sea seguro y evita compartir este token con terceros.
