@@ -13,7 +13,7 @@ Para convertir una rúbrica existente a un formato CSV con encabezados específi
 #### Para crear una rúbrica desde cero
 Para crear una rúbrica nueva, especifica los criterios y niveles de desempeño deseados, así como los encabezados requeridos para el formato CSV. Utiliza el siguiente prompt:
 
-*Crea una rúbrica para evaluar un mapa mental que contenga [número] criterios y [número] niveles de desempeño por criterio. Los niveles de evaluación van de [número] a [número] puntos, e incluye una descripción detallada de cada criterio y nivel. La rúbrica debe estar en formato CSV con los siguientes encabezados: criterion, criterion_description, rating_description_1, rating_points_1, rating_description_2, rating_points_2, rating_description_n, rating_points_n. Asegúrate de que todas las descripciones estén entre comillas dobles, los puntos no deben estar entre comillas.*
+*Crea una rúbrica para evaluar [actividad o producto] que contenga [número] criterios y [número] niveles de desempeño por criterio. Los niveles de evaluación van de [número] a [número] puntos, e incluye una descripción detallada de cada criterio y nivel. La rúbrica debe estar en formato CSV con los siguientes encabezados: criterion, criterion_description, rating_description_1, rating_points_1, rating_description_2, rating_points_2, rating_description_n, rating_points_n. Asegúrate de que todas las descripciones estén entre comillas dobles, los puntos no deben estar entre comillas.*
 
 #### Resultado espreado
 
