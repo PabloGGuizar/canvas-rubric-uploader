@@ -108,4 +108,5 @@ Guarda este contenido en un archivo con la extensión .csv, por ejemplo, rubrica
 ## Licencia
 
 Este trabajo está bajo una Licencia Creative Commons Atribución 4.0 Internacional.
+
 Aplicación realizada por Pablo G. Guízar con la invaluable ayuda de Gemini.
