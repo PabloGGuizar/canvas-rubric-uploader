@@ -68,7 +68,7 @@ Para utilizar este script, primero necesitas una extensión de gestión de UserS
 
 Para facilitar la creación del archivo `.csv` con el formato correcto, puedes utilizar este generador de rúbricas basado en Gemini:
 
-➡️ [**Generador de Rúbricas para Canvas**](https://g.co/gemini/share/716b1e5aaab8)
+➡️ [**Generador de Rúbricas para Canvas**](https://g.co/gemini/share/f0fffe2448f2)
 
 ![Generador de Rúbricas para Canvas](src/Generador-de-rubricas.jpg)
 
