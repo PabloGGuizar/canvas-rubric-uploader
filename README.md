@@ -6,6 +6,10 @@ Este es un script de Tampermonkey (UserScript) diseñado para simplificar la cre
 
 El script funciona de manera segura y eficiente, **sin necesidad de generar o gestionar tokens de acceso (API Keys)**, ya que utiliza el token de autenticación de la sesión activa del usuario para realizar las subidas.
 
+![Ventana subir rúbrica](src/Ventana-subir-rubrica.jpg)
+
+![Éxito subir rúbrica](src/Exito-subir-rubrica.jpg)
+
 ## Características Principales
 
 * **Subida Masiva desde CSV:** Crea rúbricas completas en segundos a partir de un archivo `.csv`.
