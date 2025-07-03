@@ -66,6 +66,8 @@ Para facilitar la creación del archivo `.csv` con el formato correcto, puedes u
 
 ➡️ [**Generador de Rúbricas para Canvas**](https://g.co/gemini/share/716b1e5aaab8)
 
+![Generador de Rúbricas para Canvas](src/Generador-de-rubricas.jpg)
+
 Simplemente describe la rúbrica que necesitas (por ejemplo, "una rúbrica para un ensayo de 5 criterios sobre la Revolución Francesa") y la IA generará el contenido en el formato exacto que el script necesita. El generador te permite descargar el resultado directamente como un archivo `.csv`, listo para subir a Canvas.
 
 ### Formato Manual del CSV
