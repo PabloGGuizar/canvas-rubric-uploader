@@ -107,4 +107,5 @@ Guarda este contenido en un archivo con la extensión .csv, por ejemplo, rubrica
 
 ## Licencia
 
-Esta obra está bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/). Creado por Pablo G. Guízar con la ayuda de ChatGPT y Gemini.
+Este trabajo está bajo una Licencia Creative Commons Atribución 4.0 Internacional.
+Aplicación realizada por Pablo G. Guízar con la invaluable ayuda de Gemini.
